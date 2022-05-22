@@ -1,0 +1,92 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 1.35rem;
+  text-align: left;
+  padding-left: 17px;
+}
+
+h2 {
+  color: cyan;
+  font-size: 1.1rem;
+  text-align: left;
+  padding-left: 25px;
+  position: absolute;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  text-align: left;
+  font-size: .95rem;
+  padding-left: 17px;
+  display: inline-block;
+}
+
+hr {
+  height: 0;
+  width: 90%;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.main-box {
+  background-color: hsl(216, 50%, 16%);
+  height: 550px;
+  width: 320px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.left-box {
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-right: 90px;
+}
+
+.right-box {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: hsl(215, 51%, 70%);
+}
+
+.equilibrium {
+  height: 288px;
+  width: 288px;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.eth {
+  color: cyan;
+  font-size: 1.1rem;
+}
+
+.monkey {
+  width: 15%;
+  margin-top: 10px;
+}
+
+.creator {
+  float: right;
+  margin-right: 60px;
+  margin-top: 25px;
+}
+
+.part1 {
+  color: white;
+}
